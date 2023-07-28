@@ -4,6 +4,7 @@ import type { ComponentMedia } from './component-media';
 import type { ComponentMetrics } from './component-metrics';
 import type { ComponentQuote } from './component-quote';
 import type { ComponentCard } from './component-card';
+import type { ComponentCodeSnippets } from './component-code-snippets';
 
 export type ComponentType =
 	| 'comp_button_group'
@@ -11,7 +12,8 @@ export type ComponentType =
 	| 'comp_media'
 	| 'comp_metrics'
 	| 'comp_quote'
-	| 'comp_cards';
+	| 'comp_cards'
+	| 'comp_code_snippets';
 
 export type Component =
 	| ComponentButtonGroup
@@ -19,4 +21,5 @@ export type Component =
 	| ComponentMedia
 	| ComponentMetrics
 	| ComponentQuote
-	| ComponentCard;
+	| ComponentCard
+	| ComponentCodeSnippets;

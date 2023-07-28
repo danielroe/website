@@ -14,6 +14,7 @@ import type {
 import type {
 	ComponentButton,
 	ComponentButtonGroup,
+	ComponentCodeSnippets,
 	ComponentHeading,
 	ComponentMedia,
 	ComponentMetrics,
@@ -62,6 +63,7 @@ export interface Schema {
 	comp_media: ComponentMedia[];
 	comp_metrics: ComponentMetrics[];
 	comp_quote: ComponentQuote[];
+	comp_code_snippets: ComponentCodeSnippets[];
 
 	// Meta
 	globals: Globals;
